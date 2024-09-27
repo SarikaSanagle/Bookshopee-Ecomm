@@ -12,8 +12,8 @@ import Register from '../src/Register';
 import ProductList from '../src/ProductList';
 import Orderdisplay from '../src/Orderdisplay';
 import Orderlist from '../src/Orderlist';
-import bgimg from  './images/onlinebookstore.jpg';
-import bookimg from  './images/Booksimage.jpg';
+//import bgimg from  './images/onlinebookstore.jpg';
+//import bookimg from  './images/Booksimage.jpg';
 
 
 function App() {
@@ -55,6 +55,6 @@ function App() {
 
 
   );
-}
+};
 
 export default App; 

@@ -27,13 +27,13 @@ const Orderlist=()=> {
           }
         } catch (err) {
           setError(err.message);
-          console.error('Error fetching data:', err);
+          console.error('Error fetching data:', error);
           return;
         }
       };
   
       fetchData();
-    }, []);
+    }, [error, items.keys]);
 
 
     return (
@@ -94,4 +94,4 @@ const Orderlist=()=> {
     )
 }
 
-export default Orderlist
+export default Orderlist;

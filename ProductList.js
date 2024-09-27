@@ -6,11 +6,11 @@ import axios from 'axios';
 //import { response } from 'express';
 //import Productlist from '../../Backend/models/ProductList';
 //import Orderdisplay from './Orderdisplay.js';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 //import { now, set } from 'mongoose';
 //import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-export const Orderid = new String;
+//export const Orderid = new String;
 
 function ProductList() {
 
@@ -36,13 +36,13 @@ function ProductList() {
         }
       } catch (err) {
         setError(err.message);
-        console.error('Error fetching data:', err);
+        console.error('Error fetching data:', error);
         return;
       }
     };
 
     fetchData();
-  }, []);
+  }, [error, items.keys]);
 
   const [allchecked, setAllChecked] = React.useState([]);
   const [totamt, setTotamt] = useState(0);

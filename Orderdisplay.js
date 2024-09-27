@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 //import { response } from 'express';
 import axios from 'axios';
-import Orderlist from './Orderlist';
+//import Orderlist from './Orderlist';
 
  const Orderdisplay = () =>{
     const [Orderstatus, setOrderstatus] =useState("Complete");
@@ -22,12 +22,12 @@ import Orderlist from './Orderlist';
         try {
             //alert(Oid);
            
-            const data = {
+          /*  const data = {
                 Username,
                 Address,
                 Phoneno,
                 Orderstatus,
-            };
+            };*/
 
             //    setLoading(true)
 
