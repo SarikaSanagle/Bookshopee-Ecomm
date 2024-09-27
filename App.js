@@ -6,8 +6,8 @@ import Header from '../src/Header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-//import { Outlet, Link } from 'react-router-dom'
-import { Link } from 'react-router-dom'
+//import { Outlet, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Register from '../src/Register';
 import ProductList from '../src/ProductList';
 import Orderdisplay from '../src/Orderdisplay';
