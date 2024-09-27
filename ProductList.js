@@ -135,7 +135,7 @@ function ProductList() {
               <th className='th'>Edition</th>
               <th className='th'>Price</th>
               <th className='th'>In Stock</th>
-              <th className='th'>Add to Cart`</th>
+              <th className='th'>Add to Cart</th>
               <th className='th'>Ratings</th>
             </tr>
           </thead>
