@@ -102,7 +102,7 @@ const Register = () => {
                             onChange={(e) => setUsername(e.target.value)}
                             className='form-control' style={{ width: 500 }} />
                         <br />
-                        <label for='Password' style={{ fontFamily: 'serif', fontWeight: 'bold' }}>Enter Password`</label>
+                        <label for='Password' style={{ fontFamily: 'serif', fontWeight: 'bold' }}>Enter Password</label>
                         <br />
                         <input
                             type='text'
