@@ -1,5 +1,5 @@
 import express from  'express';
-import  UserRegi  from '../models/UserRegi.js';
+import  UserRegi  from '../models/UserRegi.js'
 const router = express.Router();
 //const  UserRegi  = useModel('./Backend/models/UserRegi.js');
 
