@@ -26,11 +26,11 @@ function App() {
           <Container style={{ fontSize: 18, fontFamily: 'sans-serif' }}>
             <Navbar.Brand style={{ color: 'red', fontWeight: 'bold', fontSize: 20 }}>Online Book</Navbar.Brand>
             <Nav className="me-auto nav_bar_wrapper" >
-              <Link to="/home" >Home</Link>
-              <Link to="/register" >Register</Link>
-              <Link to="/productlist" >Product List</Link>
-              <Link to="/orderlist" >Order List</Link>
-              <Link to="" ></Link>
+              <Link to='/home' >Home</Link>
+              <Link to='/register' >Register</Link>
+              <Link to='/productlist' >Product List</Link>
+              <Link to='/orderlist' >Order List</Link>
+              <Link to='' ></Link>
             </Nav>
            
           </Container>
